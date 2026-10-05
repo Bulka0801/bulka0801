@@ -11,7 +11,9 @@ I turn ideas into useful products — from web platforms and APIs to data-driven
 
 </div>
 
-## Tech I work with
+## Tech Stack & Expertise
+
+### Languages
 
 <div align="center">
 
@@ -22,9 +24,63 @@ I turn ideas into useful products — from web platforms and APIs to data-driven
 ![C#](https://img.shields.io/badge/C%23-6D597A?style=for-the-badge&logo=csharp&logoColor=F7F2E8)
 ![Java](https://img.shields.io/badge/Java-BE643C?style=for-the-badge&logo=openjdk&logoColor=F7F2E8)
 ![HTML5](https://img.shields.io/badge/HTML5-D66A3F?style=for-the-badge&logo=html5&logoColor=F7F2E8)
-![Jupyter](https://img.shields.io/badge/Jupyter-E58A52?style=for-the-badge&logo=jupyter&logoColor=0F2B30)
+![SQL](https://img.shields.io/badge/SQL-487D82?style=for-the-badge&logo=postgresql&logoColor=F7F2E8)
 
 </div>
+
+### Databases & Backend
+
+<div align="center">
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-315E68?style=for-the-badge&logo=postgresql&logoColor=F7F2E8)
+![Supabase](https://img.shields.io/badge/Supabase-2C9C98?style=for-the-badge&logo=supabase&logoColor=F7F2E8)
+![REST API](https://img.shields.io/badge/REST_API-D66A3F?style=for-the-badge&logo=swagger&logoColor=F7F2E8)
+![Node.js](https://img.shields.io/badge/Node.js-487D82?style=for-the-badge&logo=nodedotjs&logoColor=F7F2E8)
+
+</div>
+
+### Frameworks & Development Tools
+
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js-0F2B30?style=for-the-badge&logo=nextdotjs&logoColor=F7F2E8)
+![React](https://img.shields.io/badge/React-315E68?style=for-the-badge&logo=react&logoColor=F7F2E8)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2C9C98?style=for-the-badge&logo=tailwindcss&logoColor=F7F2E8)
+![.NET](https://img.shields.io/badge/.NET-6D597A?style=for-the-badge&logo=dotnet&logoColor=F7F2E8)
+![Jupyter](https://img.shields.io/badge/Jupyter-E58A52?style=for-the-badge&logo=jupyter&logoColor=0F2B30)
+![Vitest](https://img.shields.io/badge/Vitest-E8D77A?style=for-the-badge&logo=vitest&logoColor=0F2B30)
+![Git](https://img.shields.io/badge/Git-D66A3F?style=for-the-badge&logo=git&logoColor=F7F2E8)
+![GitHub](https://img.shields.io/badge/GitHub-0F2B30?style=for-the-badge&logo=github&logoColor=F7F2E8)
+![Vercel](https://img.shields.io/badge/Vercel-487D82?style=for-the-badge&logo=vercel&logoColor=F7F2E8)
+
+</div>
+
+### Engineering Skills
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+- Relational database design
+- Database normalization
+- PostgreSQL schemas and constraints
+- SQL queries, views, and indexes
+- Database migrations and seed data
+- Triggers and stored functions
+
+</td>
+<td valign="top" width="50%">
+
+- Supabase Authentication
+- Row Level Security policies
+- Role-based access control
+- REST API development
+- Audit logging
+- Unit and integration testing
+
+</td>
+</tr>
+</table>
 
 ## A quick look at my GitHub
 
