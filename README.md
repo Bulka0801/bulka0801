@@ -19,6 +19,8 @@ I turn ideas into useful products — from web platforms and APIs to data-driven
 ![TypeScript](https://img.shields.io/badge/TypeScript-2C9C98?style=for-the-badge&logo=typescript&logoColor=F7F2E8)
 ![Python](https://img.shields.io/badge/Python-315E68?style=for-the-badge&logo=python&logoColor=F7F2E8)
 ![C++](https://img.shields.io/badge/C%2B%2B-487D82?style=for-the-badge&logo=cplusplus&logoColor=F7F2E8)
+![C#](https://img.shields.io/badge/C%23-6D597A?style=for-the-badge&logo=csharp&logoColor=F7F2E8)
+![Java](https://img.shields.io/badge/Java-BE643C?style=for-the-badge&logo=openjdk&logoColor=F7F2E8)
 ![HTML5](https://img.shields.io/badge/HTML5-D66A3F?style=for-the-badge&logo=html5&logoColor=F7F2E8)
 ![Jupyter](https://img.shields.io/badge/Jupyter-E58A52?style=for-the-badge&logo=jupyter&logoColor=0F2B30)
 
