@@ -1,0 +1,77 @@
+name: GitHub Profile 3D Contributions
+
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate avatar-themed 3D contribution graph
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Create avatar-inspired theme
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/profile-theme"
+          cat > "$RUNNER_TEMP/profile-theme/settings.json" <<'JSON'
+          {
+            "type": "normal",
+            "fileName": "profile-avatar-theme.svg",
+            "backgroundColor": "#FFFFFF",
+            "foregroundColor": "#193235",
+            "strongColor": "#D56B37",
+            "weakColor": "#9AABAB",
+            "radarColor": "#2C9C98",
+            "growingAnimation": true,
+            "contribColors": [
+              "#E8EFED",
+              "#B5DCD8",
+              "#6DBBB5",
+              "#2C9C98",
+              "#D56B37"
+            ],
+            "darkMode": {
+              "type": "normal",
+              "backgroundColor": "#07171A",
+              "foregroundColor": "#F5F1E6",
+              "strongColor": "#E58A52",
+              "weakColor": "#89A4A4",
+              "radarColor": "#4FC4BA",
+              "contribColors": [
+                "#173238",
+                "#22565A",
+                "#2C7A79",
+                "#3FA59E",
+                "#E58A52"
+              ]
+            }
+          }
+          JSON
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ${{ runner.temp }}/profile-theme/settings.json
+
+      - name: Commit generated image
+        shell: bash
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add profile-3d-contrib/
+          if git diff --cached --quiet; then
+            echo "No visual changes to commit."
+          else
+            git commit -m "chore: refresh 3D contribution graph"
+            git push
+          fi
