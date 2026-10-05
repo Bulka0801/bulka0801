@@ -29,7 +29,7 @@ I turn ideas into useful products — from web platforms and APIs to data-driven
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Bulka0801&show_icons=true&hide_border=true&title_color=D56B37&text_color=789294&icon_color=2C9C98&bg_color=00000000&rank_icon=github" alt="Anastasia's GitHub statistics" />
-<img height="165" src="https://streak-stats.demolab.com?user=Bulka0801&hide_border=true&background=00000000&ring=D56B37&fire=D56B37&currStreakLabel=2C9C98&currStreakNum=D56B37&sideNums=D56B37&sideLabels=789294&dates=789294&stroke=E4E7E7" alt="Anastasia's GitHub contribution streak" />
+<img height="165" src="./profile-stats/streak.svg" alt="Anastasia's GitHub contribution streak" />
 
 </div>
 
