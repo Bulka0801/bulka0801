@@ -55,33 +55,6 @@ I turn ideas into useful products — from web platforms and APIs to data-driven
 
 </div>
 
-### Engineering Skills
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-- Relational database design
-- Database normalization
-- PostgreSQL schemas and constraints
-- SQL queries, views, and indexes
-- Database migrations and seed data
-- Triggers and stored functions
-
-</td>
-<td valign="top" width="50%">
-
-- Supabase Authentication
-- Row Level Security policies
-- Role-based access control
-- REST API development
-- Audit logging
-- Unit and integration testing
-
-</td>
-</tr>
-</table>
-
 ## A quick look at my GitHub
 
 <div align="center">
